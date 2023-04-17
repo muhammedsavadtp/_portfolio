@@ -1,12 +1,17 @@
-import { useState } from 'react'
+import { useState } from "react";
+import { HashRouter } from "react-router-dom";
+import PageRoutes from "./routes/PageRoutes";
+
+
 
 function App() {
-
   return (
-    <div className="">
-     
-    </div>
-  )
+    <>
+      <HashRouter>
+        <PageRoutes/>
+      </HashRouter>
+    </>
+  );
 }
 
-export default App
+export default App;

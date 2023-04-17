@@ -1,0 +1,9 @@
+#container {
+  max-width: var(--max-width);
+}
+.greeting-text {
+  color: var(--default-color);
+}
+
+
+

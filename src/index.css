@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --max-width: 1450px;
+  --default-color:#E30B5D;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Anton", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  height: 200vh;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  
+  height: 100vh;
+}
+*{
+  -webkit-tap-highlight-color: transparent;
+}
+
+
